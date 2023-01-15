@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Center Offset",
+	"starSystem" : "CantAffordaName.ArchipelagoSystem",
+	"Atmosphere": {
+		"size": 1000.0,
+		"useAtmosphereShader": false
+	},
+	"Base": {
+		"centerOfSolarSystem" : true,
+		"gravityFallOff": "linear",
+		"hasMapMarker": false,
+		"invulnerableToSun": true,
+		"surfaceGravity": 15.0,
+		"surfaceSize": 600.0
+	},
+	"Orbit": {
+		"isStatic": true,
+	},
+	"ReferenceFrame": {
+		"maxTargetDistance": -1.0
+	},
+	"ShipLog": {
+		"mapMode": {}
+	}
+}

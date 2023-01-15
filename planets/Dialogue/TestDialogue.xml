@@ -1,0 +1,47 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Test Speaker</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>TEST TEXT.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Option One.</Text>
+				<DialogueTarget>Yes</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Option Two.</Text>
+				<DialogueTarget>No</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Option Three.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Yes</Name>
+		<Dialogue>
+			<Page>Bling.</Page>
+		</Dialogue>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>No</Name>
+		<Dialogue>
+			<Page>Blong</Page>
+		</Dialogue>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Gorp</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

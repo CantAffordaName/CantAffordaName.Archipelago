@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Static Planet",
+	"starSystem" : "CantAffordaName.ArchipelagoSystem",
+	"Spawn" : 
+	{
+		"playerSpawnPoint" :
+		{"x": -0.6375115, "y": -499.9242, "z": 8.680548},
+		"playerSpawnRotation" :
+		{"x": 359.086, "y": 332.2006, "z": 180.3993},
+		"shipSpawnPoint" :
+		{"x": 61.51375, "y": -494.4976, "z": 41.08721},
+		"shipSpawnRotation" :
+		{"x": 0.2285656, "y": 324.7315, "z": 188.5049},
+		"startWithSuit" : true
+	},
+	"Atmosphere": {
+		"size": 1000.0,
+		"useAtmosphereShader": false
+	},
+	"Base": {
+		"ambientLight": 1.4,
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"invulnerableToSun": true,
+		"surfaceGravity": 15.0,
+		"surfaceSize": 600.0,
+		"groundSize": 5.0
+	},
+	"Orbit": {
+		"primaryBody": "Center Offset",
+		"semiMajorAxis": 10000.0,
+		"isStatic": true
+	},
+	"Water": {
+		"size": 600.0,
+		"tint": {
+			"r": 60,
+			"g": 143,
+			"b": 166,
+			"a": 255
+		}
+	},
+	"ReferenceFrame": {
+		"maxTargetDistance": -1.0
+	},
+	"ShipLog": {
+		"mapMode": {}
+	}
+}
