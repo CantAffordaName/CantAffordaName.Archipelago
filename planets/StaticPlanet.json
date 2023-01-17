@@ -1,50 +1,169 @@
 {
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
-	"name" : "Static Planet",
-	"starSystem" : "CantAffordaName.ArchipelagoSystem",
-	"Spawn" : 
-	{
-		"playerSpawnPoint" :
-		{"x": -0.6375115, "y": -499.9242, "z": 8.680548},
-		"playerSpawnRotation" :
-		{"x": 359.086, "y": 332.2006, "z": 180.3993},
-		"shipSpawnPoint" :
-		{"x": 61.51375, "y": -494.4976, "z": 41.08721},
-		"shipSpawnRotation" :
-		{"x": 0.2285656, "y": 324.7315, "z": 188.5049},
-		"startWithSuit" : true
-	},
+	"name": "Static Planet",
+	"starSystem": "CantAffordaName.ArchipelagoSystem",
 	"Atmosphere": {
-		"size": 1000.0,
-		"useAtmosphereShader": false
+		"size": 1000.0
 	},
 	"Base": {
 		"ambientLight": 1.4,
 		"gravityFallOff": "linear",
+		"groundSize": 5.0,
 		"hasMapMarker": true,
 		"invulnerableToSun": true,
 		"surfaceGravity": 15.0,
 		"surfaceSize": 600.0,
-		"groundSize": 5.0
+		"gravityVolumePriority": 2
 	},
 	"Orbit": {
 		"primaryBody": "Center Offset",
-		"semiMajorAxis": 10000.0,
-		"isStatic": true
+		"isStatic": true,
+		"semiMajorAxis": 10000.0
 	},
-	"Water": {
-		"size": 600.0,
-		"tint": {
-			"r": 60,
-			"g": 143,
-			"b": 166,
-			"a": 255
-		}
+	"Props": {
+		"details": [
+			{
+				"alignToNormal": true,
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/ArchipelagoModelV5.prefab",
+				"position": {},
+				"rotation": {},
+				"keepLoaded": true
+			},
+			{
+				"alignToNormal": true,
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/OuterShellModel.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 1.25,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/ArchipelagoSunOverrideVolume.prefab",
+				"position": {},
+				"rotation": {},
+				"keepLoaded": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower",
+				"position": {
+					"y": -250.0
+				},
+				"rotation": {},
+				"scale": 500.0,
+				"keepLoaded": true
+			},
+			{
+				"alignToNormal": true,
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/RockV1.prefab",
+				"position": {
+					"y": -619.3
+				},
+				"rotation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L",
+				"position": {
+					"y": -619.0
+				},
+				"rotation": {},
+				"scale": 1.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_M",
+				"position": {
+					"y": -619.0
+				},
+				"rotation": {},
+				"scale": 1.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
+				"position": {
+					"y": -619.0
+				},
+				"rotation": {},
+				"scale": 1.0,
+				"keepLoaded": true
+			}
+		],
+		"geysers": [
+			{
+				"position": {"x": 0.0, "y": -660.0, "z": 0.0},
+				"activeDuration": 1440.0,
+				"inactiveDuration": 1.0,
+				"force": 55,
+				"volume": 0.7
+			}
+		]
 	},
 	"ReferenceFrame": {
 		"maxTargetDistance": -1.0
 	},
 	"ShipLog": {
 		"mapMode": {}
+	},
+	"ShockEffect": {},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"x": 6.641362,
+			"y": -624.8914,
+			"z": 17.39575
+		},
+		"playerSpawnRotation": {
+			"x": 1.252215,
+			"y": 209.5707,
+			"z": 180.2482
+		},
+		"shipSpawnPoint": {
+			"x": 102.4125,
+			"y": -624.9838,
+			"z": 51.98032
+		},
+		"shipSpawnRotation": {
+			"x": 5.923297,
+			"y": 198.9472,
+			"z": 174.7011
+		},
+		"startWithSuit": true
+	},
+	"Water": {
+		"size": 620.0,
+		"tint": {
+			"r": 60,
+			"g": 143,
+			"b": 166,
+			"a": 0
+		}
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "2880",
+				"clipSelection": "random",
+				"track": "environment",
+				"volume": 0.4,
+				"position": {},
+				"radius": 619.0
+			},
+			{
+				"audio": "2507",
+				"clipSelection": "random",
+				"track": "music",
+				"volume": 0.6,
+				"position": {},
+				"radius": 619.0
+			}
+		]
 	}
 }

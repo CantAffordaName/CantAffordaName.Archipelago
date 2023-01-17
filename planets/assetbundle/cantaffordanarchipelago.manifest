@@ -1,0 +1,65 @@
+ManifestFileVersion: 0
+CRC: 2150731649
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1e48d421059b5ed1cae30a5206485421
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ee18d82832145d2837490f5548964417
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6447fdbffa315e44aa68df3d93f03aec, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Archipelago/Materials/Terrain_GD_SandWhite_d.png
+- Assets/Archipelago/Prefabs/RockV1.prefab
+- Assets/Archipelago/Prefabs/RockV1.mesh
+- Assets/Archipelago/Prefabs/ArchipelagoModelV2.mesh
+- Assets/Archipelago/Prefabs/ArchipelagoModelV5.mesh
+- Assets/Archipelago/Prefabs/OuterShellModel.mesh
+- Assets/Archipelago/Materials/Mat_Sand.mat
+- Assets/Archipelago/Materials/Sand_007_normal.jpg
+- Assets/Archipelago/Prefabs/OuterShellModel.prefab
+- Assets/Archipelago/Prefabs/ArchipelagoModel.mesh
+- Assets/Archipelago/Prefabs/ArchipelagoModelV2.prefab
+- Assets/Archipelago/Materials/DevMeter.jpg
+- Assets/Archipelago/Prefabs/ArchipelagoModelV5.prefab
+- Assets/Archipelago/Materials/Sand1x1.png
+- Assets/Archipelago/Materials/Stylized_Grass_002_normal.jpg
+- Assets/Archipelago/Materials/Mat_GDRock.mat
+- Assets/Archipelago/Materials/Rock_046_Normal.jpg
+- Assets/Archipelago/Shaders/Archipelago_Triplanar.shader
+- Assets/Archipelago/Materials/Terrain_GD_Moss_v2_d.png
+- Assets/Archipelago/Materials/Mat_Rock.mat
+- Assets/Archipelago/Prefabs/ArchipelagoModel.prefab
+- Assets/Archipelago/Materials/Mat_DevTest.mat
+- Assets/Archipelago/Prefabs/ArchipelagoSunOverrideVolume.prefab
+- Assets/Archipelago/Prefabs/ArchipelagoModelV4.mesh
+- Assets/Archipelago/Materials/Mat_GDMoss.mat
+- Assets/Archipelago/Materials/Terrain_GD_RockDetail_d.png
+- Assets/Samples/Polybrush/1.0.2/Shader Examples (Standard)/Shader/StandardTextureBlend.shader
+- Assets/Archipelago/Materials/Rock1x1.png
+- Assets/Archipelago/Prefabs/ArchipelagoModelV4.prefab
+Dependencies: []
