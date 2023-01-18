@@ -1,0 +1,201 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Archipelago",
+	"starSystem": "CantAffordaName.ArchipelagoSystem",
+	"Atmosphere": {
+		"size": 2200.0,
+		"atmosphereSunIntensity": 1.0,
+		"atmosphereTint":
+		{
+			"r" : 66,
+			"g" : 185,
+			"b" : 245,
+			"a" : 255
+		},
+		"fogDensity": 0.3,
+		"fogSize": 2200,
+		"fogTint" : 
+		{
+			"r" : 66,
+			"g" : 185,
+			"b" : 245,
+			"a" : 255
+		},
+		"hasOxygen": true,
+		"useAtmosphereShader": true
+	},
+	"Base": {
+		"ambientLight": 1.4,
+		"gravityFallOff": "linear",
+		"groundSize": 5.0,
+		"hasMapMarker": true,
+		"invulnerableToSun": true,
+		"surfaceGravity": 15.0,
+		"surfaceSize": 600.0
+	},
+	"Orbit": {
+		"primaryBody": "Sea Sun",
+		"semiMajorAxis": 20000.0,
+		"siderealPeriod": 10.0
+	},
+	"Props": {
+		"details": [
+			{
+				"alignToNormal": true,
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/ArchipelagoModelV5.prefab",
+				"position": {},
+				"rotation": {},
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/ArchipelagoSunOverrideVolume.prefab",
+				"position": {},
+				"rotation": {},
+				"keepLoaded": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower",
+				"position": {
+					"y": -250.0
+				},
+				"rotation": {},
+				"scale": 500.0,
+				"keepLoaded": true
+			},
+			{
+				"alignToNormal": true,
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/RockV1.prefab",
+				"position": {
+					"y": -619.3
+				},
+				"rotation": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L",
+				"position": {
+					"y": -619.0
+				},
+				"rotation": {},
+				"scale": 1.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_M",
+				"position": {
+					"y": -619.0
+				},
+				"rotation": {},
+				"scale": 1.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
+				"position": {
+					"y": -619.0
+				},
+				"rotation": {},
+				"scale": 1.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Geometry_TH/Terrain_TH_Water_v3/NomaiMines_Water",
+				"position": {},
+				"rotation": {},
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/ElectricCube.prefab",
+				"position": {},
+				"rotation": {},
+				"keepLoaded": true
+			},
+		],
+		"geysers": [
+			{
+				"position": {"x": 0.0, "y": -660.0, "z": 0.0},
+				"activeDuration": 1440.0,
+				"inactiveDuration": 1.0,
+				"force": 55,
+				"volume": 0.7
+			}
+		]
+	},
+	"ReferenceFrame": {
+		"maxTargetDistance": -1.0
+	},
+	"ShipLog": {
+		"mapMode": {}
+	},
+	"ShockEffect": {},
+	"Spawn": {
+		"playerSpawnPoint": {
+			"x": 6.641362,
+			"y": -624.8914,
+			"z": 17.39575
+		},
+		"playerSpawnRotation": {
+			"x": 1.252215,
+			"y": 209.5707,
+			"z": 180.2482
+		},
+		"shipSpawnPoint": {
+			"x": 102.4125,
+			"y": -624.9838,
+			"z": 51.98032
+		},
+		"shipSpawnRotation": {
+			"x": 5.923297,
+			"y": 198.9472,
+			"z": 174.7011
+		},
+		"startWithSuit": true
+	},
+	"Water": {
+		"size": 620.0,
+		"tint": {
+			"r": 60,
+			"g": 143,
+			"b": 166,
+			"a": 0
+		}
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "2880",
+				"clipSelection": "random",
+				"track": "environment",
+				"volume": 0.4,
+				"position": {},
+				"radius": 619.0,
+				"priority": 1
+			},
+			{
+				"audio": "2881",
+				"clipSelection": "random",
+				"track": "environment",
+				"volume": 0.4,
+				"position": {},
+				"radius": 635.0,
+				"priority": 0
+			},
+			{
+				"audio": "2507",
+				"clipSelection": "random",
+				"track": "music",
+				"volume": 0.5,
+				"position": {},
+				"radius": 619.0
+			}
+		]
+	}
+}

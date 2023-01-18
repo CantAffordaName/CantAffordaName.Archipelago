@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2150731649
+CRC: 3537227500
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1e48d421059b5ed1cae30a5206485421
+    Hash: 7c223477c4d1e34415816bf3e85d0c9b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ee18d82832145d2837490f5548964417
+    Hash: d0ee4ffad59ab43e287c429a328be2d8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,6 +27,22 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6852cf345d89f5f4583e26776c10f794, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d2589d866c4af8248a9800378533d520, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6ef3347da0df657449c4ca2fc181e0b2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 034b758dcb27c9746a7640cdb345b333, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 6447fdbffa315e44aa68df3d93f03aec, type: 3}
 - Class: 115
@@ -36,30 +52,26 @@ Assets:
 - Assets/Archipelago/Materials/Terrain_GD_SandWhite_d.png
 - Assets/Archipelago/Prefabs/RockV1.prefab
 - Assets/Archipelago/Prefabs/RockV1.mesh
-- Assets/Archipelago/Prefabs/ArchipelagoModelV2.mesh
 - Assets/Archipelago/Prefabs/ArchipelagoModelV5.mesh
 - Assets/Archipelago/Prefabs/OuterShellModel.mesh
 - Assets/Archipelago/Materials/Mat_Sand.mat
 - Assets/Archipelago/Materials/Sand_007_normal.jpg
 - Assets/Archipelago/Prefabs/OuterShellModel.prefab
-- Assets/Archipelago/Prefabs/ArchipelagoModel.mesh
-- Assets/Archipelago/Prefabs/ArchipelagoModelV2.prefab
 - Assets/Archipelago/Materials/DevMeter.jpg
 - Assets/Archipelago/Prefabs/ArchipelagoModelV5.prefab
+- Assets/Archipelago/Prefabs/ElectricCube.prefab
 - Assets/Archipelago/Materials/Sand1x1.png
 - Assets/Archipelago/Materials/Stylized_Grass_002_normal.jpg
+- Assets/Archipelago/Audio/JellyFish_Shock_02.wav
 - Assets/Archipelago/Materials/Mat_GDRock.mat
 - Assets/Archipelago/Materials/Rock_046_Normal.jpg
 - Assets/Archipelago/Shaders/Archipelago_Triplanar.shader
 - Assets/Archipelago/Materials/Terrain_GD_Moss_v2_d.png
 - Assets/Archipelago/Materials/Mat_Rock.mat
-- Assets/Archipelago/Prefabs/ArchipelagoModel.prefab
+- Assets/Archipelago/Prefabs/JellyFish_Shock_02.prefab
 - Assets/Archipelago/Materials/Mat_DevTest.mat
 - Assets/Archipelago/Prefabs/ArchipelagoSunOverrideVolume.prefab
-- Assets/Archipelago/Prefabs/ArchipelagoModelV4.mesh
 - Assets/Archipelago/Materials/Mat_GDMoss.mat
 - Assets/Archipelago/Materials/Terrain_GD_RockDetail_d.png
-- Assets/Samples/Polybrush/1.0.2/Shader Examples (Standard)/Shader/StandardTextureBlend.shader
 - Assets/Archipelago/Materials/Rock1x1.png
-- Assets/Archipelago/Prefabs/ArchipelagoModelV4.prefab
 Dependencies: []

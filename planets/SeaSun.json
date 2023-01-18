@@ -1,0 +1,43 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Sea Sun",
+	"starSystem": "CantAffordaName.ArchipelagoSystem",
+	"Atmosphere": {
+		"fogDensity": 0.5,
+		"fogSize": 3300.0,
+		"fogTint": {
+			"r": 245,
+			"g": 209,
+			"b": 66,
+			"a": 255
+		},
+		"size": 3300.0
+	},
+	"Base": {
+		"centerOfSolarSystem": true,
+		"gravityFallOff": "inverseSquared",
+		"hasMapMarker": true,
+		"invulnerableToSun": true,
+		"surfaceSize": 2000.0,
+		"surfaceGravity": 100.0
+	},
+	"Orbit": {
+		"isStatic": false
+	},
+	"ReferenceFrame": {
+		"enabled": false
+	},
+	"ShipLog": {},
+	"Star": {
+		"lifespan": 30.0,
+		"size": 3000.0,
+		"tint": {
+			"r": 245,
+			"g": 209,
+			"b": 66,
+			"a": 255
+		},
+		"stellarDeathType": "none",
+		"stellarRemnantType": "default"
+	}
+}
