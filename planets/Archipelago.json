@@ -12,7 +12,7 @@
 			"b" : 245,
 			"a" : 255
 		},
-		"fogDensity": 0.3,
+		"fogDensity": 0.1,
 		"fogSize": 2200,
 		"fogTint" : 
 		{
@@ -25,25 +25,24 @@
 		"useAtmosphereShader": true
 	},
 	"Base": {
+		"centerOfSolarSystem": true,
 		"ambientLight": 1.4,
 		"gravityFallOff": "linear",
-		"groundSize": 5.0,
+		"groundSize": 600.0,
 		"hasMapMarker": true,
 		"invulnerableToSun": true,
 		"surfaceGravity": 15.0,
 		"surfaceSize": 600.0
 	},
 	"Orbit": {
-		"primaryBody": "Sea Sun",
-		"semiMajorAxis": 20000.0,
-		"siderealPeriod": 10.0
+		"isStatic": true
 	},
 	"Props": {
 		"details": [
 			{
 				"alignToNormal": true,
 				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
-				"path": "Assets/Archipelago/Prefabs/ArchipelagoModelV5.prefab",
+				"path": "Assets/Archipelago/Prefabs/ArchipelagoModelV6.prefab",
 				"position": {},
 				"rotation": {},
 				"keepLoaded": true
@@ -107,7 +106,11 @@
 			},
 			{
 				"path": "TimberHearth_Body/Sector_TH/Geometry_TH/Terrain_TH_Water_v3/NomaiMines_Water",
-				"position": {},
+				"position": {
+					"x": -26.0,
+					"y": 150.0,
+					"z": -535.0
+				},
 				"rotation": {},
 				"keepLoaded": true
 			},
@@ -118,6 +121,29 @@
 				"rotation": {},
 				"keepLoaded": true
 			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/CritterAnimated.prefab",
+				"position": {
+					"x": -5.0,
+					"y": -636.5,
+					"z": 5.0
+				},
+				"alignToNormal": true,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/OuterShellModel.prefab",
+				"position": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"rotation": {},
+				"scale": 1.0,
+				"keepLoaded": true
+			}
 		],
 		"geysers": [
 			{
@@ -166,7 +192,9 @@
 			"g": 143,
 			"b": 166,
 			"a": 0
-		}
+		},
+		"buoyancy": 1.0,
+		"density": 15.0
 	},
 	"Volumes": {
 		"audioVolumes": [

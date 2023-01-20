@@ -42,6 +42,6 @@
 		"stellarDeathType": "none",
 		"stellarRemnantType": "default",
 		"solarLuminosity": 1.0,
-		"lightRadius": 1600.0
+		"lightRadius": 1750.0
 	}
 }

@@ -8,7 +8,7 @@
 	},
 	"Orbit" : 
 	{
-		"primaryBody": "Sea Sun",
+		"primaryBody": "Archipelago",
 		"semiMajorAxis": 30000,
 	},
 	"destroy": true
