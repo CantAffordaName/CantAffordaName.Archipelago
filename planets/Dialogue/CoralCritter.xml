@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Critter</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Fascinating! This type of coral seems to generate some sort of natural electricity.</Page>
+			<Page>Based on my observations, it appears that if this coral is <![CDATA[<b>completely surrounded by orange coral</b>]]>, there's a high chance of a passageway hiding beneath it.</Page>
+			<Page>...It's still a bit shocking to pass through it, though.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

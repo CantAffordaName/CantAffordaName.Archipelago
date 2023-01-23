@@ -1,0 +1,12 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Critter</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Have you been north yet? The triangle islands are located up there.</Page>
+			<Page>Why is it called the triangle islands when there's only two of them? Because one of them had a sink hole open beneath it!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

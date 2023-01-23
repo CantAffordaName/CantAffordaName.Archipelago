@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 337329666
+CRC: 3155632192
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ab6f5d4c54adc7e853f2e407e3ab4437
+    Hash: 3d3b9d9d33ca1322cca6a910095a9846
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 240da8198e59acf514ba195c7b0920a6
+    Hash: 306198c2e30570b33a26503c17906b58
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -31,68 +31,131 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 74
   Script: {instanceID: 0}
-- Class: 82
-  Script: {instanceID: 0}
-- Class: 83
-  Script: {instanceID: 0}
 - Class: 91
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 420cbc835ec74c74c996ba2af6d3448e, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 6852cf345d89f5f4583e26776c10f794, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 44e6c85460fc91746b86ccb3c4135daf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: da455a36c65f67746be68f64e5291b97, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: d2589d866c4af8248a9800378533d520, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: c82db0fa1189d6b4b8fcaa80eff2fca0, type: 3}
+  Script: {fileID: 11500000, guid: 0697417d0b4243b48a036bfb10342726, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 034b758dcb27c9746a7640cdb345b333, type: 3}
+  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 6447fdbffa315e44aa68df3d93f03aec, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Archipelago/Prefabs/Decor_Coral3_3.prefab
+- Assets/Archipelago/Prefabs/Decor_Coral3_1.mesh
 - Assets/Archipelago/Materials/Terrain_GD_SandWhite_d.png
+- Assets/Archipelago/Animations/Crawler/Crawler_AnimController.controller
+- Assets/Archipelago/Materials/Coral.png
+- Assets/Archipelago/Materials/Mat_ElectricMessage.mat
+- Assets/Archipelago/Prefabs/Decor_Coral1_3.prefab
+- Assets/Archipelago/Materials/Mat_Coral.mat
 - Assets/Archipelago/Prefabs/RockV1.prefab
+- Assets/Archipelago/Materials/Mat_CrawlerEyes.mat
+- Assets/Archipelago/Prefabs/Decor_Coral2_3.prefab
 - Assets/Archipelago/Prefabs/RockV1.mesh
+- Assets/Archipelago/Prefabs/ArchipelagoModelV16.mesh
+- Assets/Archipelago/Materials/Mat_THGeyser.mat
 - Assets/Archipelago/Materials/Terrain_HT_CustomNormal.png
-- Assets/Archipelago/Prefabs/CritterAnimated.prefab
-- Assets/Archipelago/Prefabs/ArchipelagoModelV5.mesh
 - Assets/Archipelago/Materials/Terrain_HT_TimeLoopMetal_e.png
-- Assets/Archipelago/Prefabs/OuterShellModel.mesh
+- Assets/Archipelago/Prefabs/Decor_Coral1_2.prefab
+- Assets/Archipelago/Prefabs/Decor_RockPillar.mesh
+- Assets/Archipelago/Materials/Mat_Pod.mat
 - Assets/Archipelago/Materials/Mat_Sand.mat
 - Assets/Archipelago/Materials/Sand_007_normal.jpg
+- Assets/Archipelago/Prefabs/Decor_Coral4_2.prefab
 - Assets/Archipelago/Prefabs/OuterShellModel.prefab
+- Assets/Archipelago/Prefabs/Decor_Coral2_2.prefab
 - Assets/Archipelago/Materials/DevMeter.jpg
-- Assets/Archipelago/Prefabs/ArchipelagoModelV5.prefab
+- Assets/Archipelago/Materials/Mat_TriangleMessage.mat
+- Assets/Archipelago/Prefabs/Pod.prefab
+- Assets/Archipelago/Prefabs/Decor_RockSpike.mesh
+- Assets/Archipelago/Materials/Mat_Current.mat
+- Assets/Archipelago/Prefabs/Decor_Coral3_3.mesh
 - Assets/Archipelago/Prefabs/ArchipelagoModelV6.prefab
 - Assets/Archipelago/Prefabs/ElectricCube.prefab
-- Assets/Archipelago/Materials/Sand1x1.png
+- Assets/Archipelago/Prefabs/Decor_Coral4_3.mesh
+- Assets/Archipelago/Materials/ElectroCoral.png
+- Assets/Archipelago/Prefabs/Decor_Coral4_1.prefab
+- Assets/Archipelago/Animations/Crawler/Crawler_Movement.anim
 - Assets/Archipelago/Materials/Stylized_Grass_002_normal.jpg
 - Assets/Archipelago/Materials/Critter_base.png
+- Assets/Archipelago/Shaders/Outer Wilds_Environment_Foliage.shader
+- Assets/Archipelago/Prefabs/Decor_Coral1_1.prefab
+- Assets/Archipelago/Prefabs/Decor_RockPillar.prefab
+- Assets/Archipelago/Prefabs/Decor_Coral2_3.mesh
+- Assets/Archipelago/Materials/Mat_InnerShell.mat
 - Assets/Archipelago/Materials/Critter_nor.png
+- Assets/Archipelago/Prefabs/Decor_Coral2_2.mesh
 - Assets/Archipelago/Materials/GDMoss_CustomNormal.png
 - Assets/Archipelago/Materials/Mat_Critter.mat
+- Assets/Archipelago/Prefabs/Decor_RockBoulder.mesh
 - Assets/Archipelago/Shaders/Archipelago_Triplanar_Emissive.shader
-- Assets/Archipelago/Audio/JellyFish_Shock_02.wav
+- Assets/Archipelago/Materials/Mat_CrescentMessage.mat
+- Assets/Archipelago/Prefabs/Decor_RockBoulder.prefab
+- Assets/Archipelago/Materials/Crawler_base.png
+- Assets/Archipelago/Materials/Mat_TestFoliage.mat
+- Assets/Archipelago/Prefabs/Decor_Coral4_2.mesh
+- Assets/Archipelago/Prefabs/Crawler.mesh
+- Assets/Archipelago/Prefabs/Decor_Coral3_2.mesh
+- Assets/Archipelago/Prefabs/CritterAnimatedV3.prefab
+- Assets/Archipelago/Materials/Pod_base.png
+- Assets/Archipelago/Prefabs/Decor_Coral3_2.prefab
 - Assets/Archipelago/Materials/Mat_GDRock.mat
 - Assets/Archipelago/Materials/Rock_046_Normal.jpg
-- Assets/Archipelago/Animations/Critter/Critter_Rigged.fbx
+- Assets/Archipelago/Prefabs/Decor_Coral1_2.mesh
+- Assets/Archipelago/Materials/Mat_FakeBlackHole.mat
+- Assets/Archipelago/Animations/Crawler/CrawlerRigged.prefab
+- Assets/Archipelago/Prefabs/Decor_Coral3_1.prefab
+- Assets/Archipelago/Prefabs/Decor_Coral1_1.mesh
+- Assets/Archipelago/Prefabs/CreditsPlatform.prefab
+- Assets/Archipelago/Materials/TriangleIsle.png
+- Assets/Archipelago/Animations/Critter/CritterV3.fbx
+- Assets/Archipelago/Animations/Crawler/CrawlerRigged.fbx
+- Assets/Archipelago/Animations/Critter/Critter_Eyes.anim
 - Assets/Archipelago/Materials/Terrain_GD_Moss_v2_d.png
 - Assets/Archipelago/Materials/Mat_Rock.mat
-- Assets/Archipelago/Prefabs/JellyFish_Shock_02.prefab
 - Assets/Archipelago/Materials/Mat_DevTest.mat
+- Assets/Archipelago/Prefabs/Decor_Coral1_3.mesh
+- Assets/Archipelago/Prefabs/Decor_Coral4_3.prefab
 - Assets/Archipelago/Prefabs/ArchipelagoSunOverrideVolume.prefab
-- Assets/Archipelago/Animations/Critter/Critter_Idle.anim
+- Assets/Archipelago/Prefabs/OuterShellModelV2.mesh
+- Assets/Archipelago/Materials/CrescentIsle.png
+- Assets/Archipelago/Prefabs/RocksGrouped.mesh
 - Assets/Archipelago/Materials/GD_CustomNormal.png
+- Assets/Archipelago/Materials/Mat_GroupedRocks.mat
+- Assets/Archipelago/Materials/Mat_Lava.mat
 - Assets/Archipelago/Animations/Critter/Critter_AnimControl.controller
+- Assets/Archipelago/Prefabs/Decor_Coral4_1.mesh
+- Assets/Archipelago/Prefabs/Decor_Coral2_1.mesh
+- Assets/Archipelago/Prefabs/Pod.mesh
 - Assets/Archipelago/Materials/Mat_GDMoss.mat
+- Assets/Archipelago/Materials/Mat_Glass.mat
+- Assets/Archipelago/Prefabs/Decor_Coral2_1.prefab
 - Assets/Archipelago/Materials/Terrain_GD_RockDetail_d.png
-- Assets/Archipelago/Materials/Rock1x1.png
+- Assets/Archipelago/Prefabs/Decor_RockSpike.prefab
+- Assets/Archipelago/Materials/Mat_Crawler.mat
 - Assets/Archipelago/Materials/Terrain_HT_TimeLoopMetal_d.png
+- Assets/Archipelago/Materials/PodMetal_base.png
 Dependencies: []

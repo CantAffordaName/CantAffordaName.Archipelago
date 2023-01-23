@@ -1,0 +1,181 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Critter</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Welcome to our little system!</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Who are you?</Text>
+				<DialogueTarget>WHO</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Do you need something from me?</Text>
+				<DialogueTarget>HELP</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I've got questions.</Text>
+				<DialogueTarget>QUESTION</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nevermind.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>WHO</Name>
+		<Dialogue>
+			<Page>We're an up and coming set of explorers set on reaching the vast expanse of space!</Page>
+			<Page>...Or, at least we would be if we weren't trapped here.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Trapped here?</Text>
+				<DialogueTarget>HELP</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>HELP</Name>
+		<Dialogue>
+			<Page>We need your help. You might have noticed that the sky above us isn't really the sky.</Page>
+			<Page>It's actually solid rock! We have no way out of here.</Page>
+			<Page>But you managed to reach our system by warping here with your warp drive, and there's a white hole orbiting around our planet. Chances are that there's another black hole somewhere that could take us to space!</Page>
+			<Page>If you could help us find a black hole on our planet, we'd be grateful!</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Okay, but I need some information.</Text>
+				<DialogueTarget>QUESTION</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Couldn't you all just get in my ship to leave? You'd all fit.</Text>
+				<DialogueTarget>MCGUFFIN</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Sure, I'll get on that. Later.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>MCGUFFIN</Name>
+		<Dialogue>
+			<Page>While technically true, we can't really make you into our mule for space travel. We need self-sufficiency. Finding a black hole for us to work with is enough!</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Okay, but I need some information.</Text>
+				<DialogueTarget>QUESTION</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>QUESTION</Name>
+		<Dialogue>
+			<Page>Sure, what do you want to know?</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Where should I explore?</Text>
+				<DialogueTarget>START</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Anything beneath the ocean's surface?</Text>
+				<DialogueTarget>OCEAN</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I don't know if you know this, but you won't be able to enjoy space for long...</Text>
+				<DialogueTarget>SUPERNOVA</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nevermind.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>START</Name>
+		<Dialogue>
+			<Page>There are a few islands. You'll mostly want to stay above the water, unless something suggests otherwise.</Page>
+			<Page>There's a crescent-shaped island on the equator. That could be a good starting point. Or you could check the poles.</Page>
+			<Page>Keep an eye or four out for some of our explorers, they're searching too. There's three of them, they've probably found something useful by now.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I've got more questions.</Text>
+				<DialogueTarget>QUESTION</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>That's all I needed.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>OCEAN</Name>
+		<Dialogue>
+			<Page>Most likely. But it would take ages to comb through it all, you move quite slowly in the water.</Page>
+			<Page>Although I should warn you now that our natural predator lies in the water...</Page>
+			<Page>Well, it's not really a predator, it just sort of eats anything that gets in its way. Like half of our population.</Page>
+			<Page>If you hear something that might be looking for lunch, try <![CDATA[<b>hiding in a crevice</b>]]> until you know for sure that the coast is clear.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I've got more questions.</Text>
+				<DialogueTarget>QUESTION</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>That's all I needed.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>SUPERNOVA</Name>
+		<Dialogue>
+			<Page>Oh, no we already know about that. We can see your mind!</Page>
+			<Page>Turns out when 90% of your body is dedicated to eyeballs, you see a lot of nifty things.</Page>
+			<Page>See this pod thingy I'm in? We wouldn't have been able to build it if we couldn't see the thoughts of others.</Page>
+			<Page>There was this HUGE ship that passed by, and we saw some great technical minds. We use the knowledge of others to build stuff, like this pod that translates our blinks to your language!</Page>
+			<Page>But anyways, that's besides the point. We've seen your memories, and though we're not in a time loop like you, we can see your memories of talking to us. Kinda trippy!</Page>
+			<Page>Perhaps eventually you'll end the time loop somehow, and we'll have the opportunity to spend what time we have enjoying the universe a little longer.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I've got more questions.</Text>
+				<DialogueTarget>QUESTION</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>This sounds quite contrived, but I'll get to it. Bye for now.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Okay, buh bye!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

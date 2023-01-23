@@ -3,36 +3,62 @@
 	"name": "Archipelago",
 	"starSystem": "CantAffordaName.ArchipelagoSystem",
 	"Atmosphere": {
-		"size": 2200.0,
-		"atmosphereSunIntensity": 1.0,
-		"atmosphereTint":
-		{
-			"r" : 66,
-			"g" : 185,
-			"b" : 245,
-			"a" : 255
+		"atmosphereTint": {
+			"r": 66,
+			"g": 185,
+			"b": 245,
+			"a": 0
 		},
+		"atmosphereSunIntensity": 1.0,
 		"fogDensity": 0.1,
-		"fogSize": 2200,
-		"fogTint" : 
-		{
-			"r" : 66,
-			"g" : 185,
-			"b" : 245,
-			"a" : 255
+		"fogSize": 2200.0,
+		"fogTint": {
+			"r": 66,
+			"g": 185,
+			"b": 245,
+			"a": 0
 		},
 		"hasOxygen": true,
+		"size": 2200.0,
 		"useAtmosphereShader": true
 	},
 	"Base": {
-		"centerOfSolarSystem": true,
 		"ambientLight": 1.4,
+		"centerOfSolarSystem": true,
 		"gravityFallOff": "linear",
-		"groundSize": 600.0,
-		"hasMapMarker": true,
 		"invulnerableToSun": true,
 		"surfaceGravity": 15.0,
 		"surfaceSize": 600.0
+	},
+	"Signal": {
+		"signals": [
+			{
+				"audio": "2412",
+				"detectionRadius": 60.0,
+				"frequency": "Geothermal Activity",
+				"identificationRadius": 3.0,
+				"name": "Geyser Heat Source",
+				"position": {
+					"x": 534.5156,
+					"y": -47.00468,
+					"z": -327.0869
+				},
+				"sourceRadius": 4.0
+			},
+			{
+				"audio": "2412",
+				"detectionRadius": 60.0,
+				"frequency": "Geothermal Activity",
+				"identificationRadius": 3.0,
+				"name": "Crater Heat Source",
+				"position": {
+					"x": 0.4208484,
+					"y": -0.05894744,
+					"z": 359.0655
+				},
+				"sourceRadius": 4.0
+			}
+		]
 	},
 	"Orbit": {
 		"isStatic": true
@@ -57,106 +83,1775 @@
 			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower",
 				"position": {
-					"y": -250.0
+					"y": -250.0,
+					"z": 107.000008
 				},
 				"rotation": {},
-				"scale": 500.0,
-				"keepLoaded": true
-			},
-			{
-				"alignToNormal": true,
-				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
-				"path": "Assets/Archipelago/Prefabs/RockV1.prefab",
-				"position": {
-					"y": -619.3
-				},
-				"rotation": {
-					"x": 0.0,
-					"y": 0.0,
-					"z": 0.0
+				"scale": 300.0,
+				"stretch": {
+					"x": 300.0,
+					"y": 500.0,
+					"z": 500.0
 				},
 				"keepLoaded": true
 			},
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L",
 				"position": {
-					"y": -619.0
+					"y": -619.000061
 				},
 				"rotation": {},
-				"scale": 1.0,
 				"keepLoaded": true
 			},
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_M",
 				"position": {
-					"y": -619.0
+					"y": -619.000061
 				},
 				"rotation": {},
-				"scale": 1.0,
 				"keepLoaded": true
 			},
 			{
 				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_DreamZone_4/Props_DreamZone_4_Upper/Tree_DW_S_B",
 				"position": {
-					"y": -619.0
+					"y": -619.000061
 				},
 				"rotation": {},
-				"scale": 1.0,
-				"keepLoaded": true
-			},
-			{
-				"path": "TimberHearth_Body/Sector_TH/Geometry_TH/Terrain_TH_Water_v3/NomaiMines_Water",
-				"position": {
-					"x": -26.0,
-					"y": 150.0,
-					"z": -535.0
-				},
-				"rotation": {},
-				"keepLoaded": true
-			},
-			{
-				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
-				"path": "Assets/Archipelago/Prefabs/ElectricCube.prefab",
-				"position": {},
-				"rotation": {},
-				"keepLoaded": true
-			},
-			{
-				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
-				"path": "Assets/Archipelago/Prefabs/CritterAnimated.prefab",
-				"position": {
-					"x": -5.0,
-					"y": -636.5,
-					"z": 5.0
-				},
-				"alignToNormal": true,
 				"keepLoaded": true
 			},
 			{
 				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
 				"path": "Assets/Archipelago/Prefabs/OuterShellModel.prefab",
+				"position": {},
+				"rotation": {},
+				"keepLoaded": true
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_VillageCemetery/Geometry_VillageCemetery",
+				"position": {
+					"x": -574.067139,
+					"y": 36.730835,
+					"z": -263.263519
+				},
+				"rotation": {
+					"x": 274.999481,
+					"y": 265.4155,
+					"z": 179.900726
+				},
+				"scale": 0.09999993
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_VillageCemetery/Lighting_VillageCemetery",
+				"position": {
+					"x": -574.067139,
+					"y": 36.730835,
+					"z": -263.263519
+				},
+				"rotation": {
+					"x": 274.999481,
+					"y": 265.4155,
+					"z": 179.900726
+				},
+				"scale": 0.09999993
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -580.9773,
+					"y": -149.1977,
+					"z": -206.5776
+				},
+				"rotation": {
+					"x": 17.85356,
+					"y": 156.019012,
+					"z": 262.61438
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -602.6802,
+					"y": -86.67084,
+					"z": -172.3765
+				},
+				"rotation": {
+					"x": 84.6867,
+					"y": 114.404663,
+					"z": 225.232986
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -553.98584,
+					"y": -184.0075,
+					"z": -248.435455
+				},
+				"rotation": {
+					"x": 1.14425147,
+					"y": 332.089752,
+					"z": 102.120529
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -521.051,
+					"y": -188.354431,
+					"z": -305.400482
+				},
+				"rotation": {
+					"x": 21.9042339,
+					"y": 331.917358,
+					"z": 100.812813
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -478.021973,
+					"y": -182.990662,
+					"z": -373.126068
+				},
+				"rotation": {
+					"x": 20.7594833,
+					"y": 330.003662,
+					"z": 101.010422
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -441.69458,
+					"y": -164.5716,
+					"z": -431.783417
+				},
+				"rotation": {
+					"x": 349.004547,
+					"y": 323.630859,
+					"z": 96.3767548
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -408.940918,
+					"y": -128.8017,
+					"z": -480.0367
+				},
+				"rotation": {
+					"x": 349.073242,
+					"y": 320.794281,
+					"z": 94.95377
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -390.4427,
+					"y": -63.90457,
+					"z": -509.285248
+				},
+				"rotation": {
+					"x": 297.25415,
+					"y": 316.3084,
+					"z": 93.768074
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -389.305359,
+					"y": 0.8503723,
+					"z": -511.804352
+				},
+				"rotation": {
+					"x": 355.061218,
+					"y": 318.791779,
+					"z": 89.91979
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -397.817932,
+					"y": 54.8241272,
+					"z": -496.024872
+				},
+				"rotation": {
+					"x": 74.89208,
+					"y": 286.584167,
+					"z": 57.40693
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -422.51,
+					"y": 84.3434143,
+					"z": -459.899872
+				},
+				"rotation": {
+					"x": 56.08511,
+					"y": 156.8414,
+					"z": 288.885071
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -450.24707,
+					"y": 125.069183,
+					"z": -414.759369
+				},
+				"rotation": {
+					"x": 58.99198,
+					"y": 167.357788,
+					"z": 300.5456
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -479.362061,
+					"y": 169.702118,
+					"z": -366.47702
+				},
+				"rotation": {
+					"x": 67.1678543,
+					"y": 160.11734,
+					"z": 293.404175
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -503.738037,
+					"y": 198.256042,
+					"z": -328.716156
+				},
+				"rotation": {
+					"x": 68.33209,
+					"y": 167.062271,
+					"z": 291.737152
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -532.3911,
+					"y": 199.0712,
+					"z": -283.239227
+				},
+				"rotation": {
+					"x": 23.5780754,
+					"y": 152.980118,
+					"z": 279.227478
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -558.1975,
+					"y": 163.980072,
+					"z": -246.486176
+				},
+				"rotation": {
+					"x": 327.90686,
+					"y": 147.608719,
+					"z": 278.585815
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -577.8845,
+					"y": 133.628448,
+					"z": -215.050751
+				},
+				"rotation": {
+					"x": 345.71283,
+					"y": 152.883621,
+					"z": 278.117737
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": -596.188965,
+					"y": 89.37985,
+					"z": -187.916168
+				},
+				"rotation": {
+					"x": 325.216675,
+					"y": 150.987183,
+					"z": 276.458557
+				}
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": -9.617432,
+					"y": 32.99298,
+					"z": 354.473816
+				},
+				"rotation": {
+					"x": 40.60904,
+					"y": 276.999817,
+					"z": 95.63317
+				},
+				"scale": 0.5999999
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": -25.5216064,
+					"y": 12.9219055,
+					"z": 355.273865
+				},
+				"rotation": {
+					"x": 25.0000343,
+					"y": 266.0,
+					"z": 91.0000153
+				},
+				"scale": 0.5999999
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": 15.5758667,
+					"y": 34.24463,
+					"z": 353.7309
+				},
+				"rotation": {
+					"x": 84.6917953,
+					"y": 90.00308,
+					"z": 271.239136
+				},
+				"scale": 0.5999999
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": 26.6949463,
+					"y": 26.6150818,
+					"z": 355.873962
+				},
+				"rotation": {
+					"x": 14.2158146,
+					"y": 276.6175,
+					"z": 93.60151
+				},
+				"scale": 0.6
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": 40.0641479,
+					"y": 10.6942749,
+					"z": 352.420837
+				},
+				"rotation": {
+					"x": 4.070319,
+					"y": 272.981,
+					"z": 94.6322
+				},
+				"scale": 0.6
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": 34.78015,
+					"y": -5.35638428,
+					"z": 353.863281
+				},
+				"rotation": {
+					"x": 344.462616,
+					"y": 272.999817,
+					"z": 94.74525
+				},
+				"scale": 0.6
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": 16.2630615,
+					"y": 2.659607,
+					"z": 354.020081
+				},
+				"rotation": {
+					"x": 72.05889,
+					"y": 269.999756,
+					"z": 86.45384
+				},
+				"scale": 0.6
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": 19.2398071,
+					"y": -16.6122742,
+					"z": 354.1792
+				},
+				"rotation": {
+					"x": 27.9803944,
+					"y": 269.999817,
+					"z": 88.16367
+				},
+				"scale": 0.6
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": 13.8786621,
+					"y": -38.2996826,
+					"z": 353.9323
+				},
+				"rotation": {
+					"x": 17.5819225,
+					"y": 269.999939,
+					"z": 83.92794
+				},
+				"scale": 0.6
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": -22.4384766,
+					"y": -32.1446838,
+					"z": 351.968262
+				},
+				"rotation": {
+					"x": 281.398376,
+					"y": 270.0,
+					"z": 90.0
+				},
+				"scale": 0.6
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": -17.3793335,
+					"y": -6.267456,
+					"z": 350.947083
+				},
+				"rotation": {
+					"x": 89.87805,
+					"y": 177.903152,
+					"z": 5.013918E-05
+				},
+				"scale": 0.6
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": 6.244751,
+					"y": 16.1787415,
+					"z": 350.2954
+				},
+				"rotation": {
+					"x": 28.4671116,
+					"y": 90.00039,
+					"z": 270.0
+				},
+				"scale": 0.6
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": -7.906311,
+					"y": 9.818207,
+					"z": 351.720642
+				},
+				"rotation": {
+					"x": 27.4557724,
+					"y": 270.0,
+					"z": 90.0
+				},
+				"scale": 0.6
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": 32.9094849,
+					"y": -30.2150574,
+					"z": 355.135925
+				},
+				"rotation": {
+					"x": 352.876373,
+					"y": 269.9998,
+					"z": 90.00004
+				},
+				"scale": 0.6
+			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Animations/Crawler/CrawlerRigged.prefab",
+				"position": {},
+				"rotation": {},
+				"scale": 100.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": -21.2437744,
+					"y": 427.939453,
+					"z": -103.80835
+				},
+				"rotation": {
+					"x": 13.3219,
+					"y": 177.6776,
+					"z": 173.1817
+				},
+				"scale": 0.6,
+				"stretch": {
+					"x": 0.6,
+					"y": 0.3,
+					"z": 0.6
+				}
+			},
+			{
+				"path": "GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot/Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_fluff",
+				"position": {
+					"x": -34.98352,
+					"y": 429.1278,
+					"z": -101.774994
+				},
+				"rotation": {
+					"x": 19.3480167,
+					"y": 184.2678,
+					"z": 181.1839
+				},
+				"scale": 0.6,
+				"stretch": {
+					"x": 0.6,
+					"y": 0.3,
+					"z": 0.6
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -587.6306,
+					"y": 46.80844,
+					"z": -242.423309
+				},
+				"rotation": {
+					"x": 25.8647156,
+					"y": 156.260635,
+					"z": 273.750946
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -584.5683,
+					"y": 18.4878235,
+					"z": -251.256683
+				},
+				"rotation": {
+					"x": 334.019775,
+					"y": 154.527344,
+					"z": 270.134247
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -585.8798,
+					"y": -14.0380859,
+					"z": -247.9191
+				},
+				"rotation": {
+					"x": 313.4277,
+					"y": 155.485291,
+					"z": 268.7213
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -579.9691,
+					"y": -55.1082764,
+					"z": -256.893524
+				},
+				"rotation": {
+					"x": 278.355316,
+					"y": 172.191483,
+					"z": 252.2872
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -566.6131,
+					"y": -93.45538,
+					"z": -277.1653
+				},
+				"rotation": {
+					"x": 281.5148,
+					"y": 309.025482,
+					"z": 115.286789
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -546.9975,
+					"y": -105.063171,
+					"z": -310.294464
+				},
+				"rotation": {
+					"x": 308.7887,
+					"y": 320.826477,
+					"z": 101.094925
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -521.0767,
+					"y": -105.111267,
+					"z": -351.984528
+				},
+				"rotation": {
+					"x": 331.0223,
+					"y": 322.666229,
+					"z": 98.04247
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -501.44397,
+					"y": -103.06073,
+					"z": -381.6547
+				},
+				"rotation": {
+					"x": 331.9366,
+					"y": 321.7366,
+					"z": 97.89375
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -478.0902,
+					"y": -92.56464,
+					"z": -416.385651
+				},
+				"rotation": {
+					"x": 341.911316,
+					"y": 321.935272,
+					"z": 95.1721954
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -459.0121,
+					"y": -76.0734253,
+					"z": -444.043854
+				},
+				"rotation": {
+					"x": 354.935272,
+					"y": 320.800629,
+					"z": 95.39196
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -446.9093,
+					"y": -54.1351,
+					"z": -461.302277
+				},
+				"rotation": {
+					"x": 5.68812752,
+					"y": 319.830841,
+					"z": 91.73317
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -440.8452,
+					"y": -29.4885864,
+					"z": -469.496246
+				},
+				"rotation": {
+					"x": 299.227753,
+					"y": 318.248047,
+					"z": 91.25229
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -442.1889,
+					"y": 0.202270508,
+					"z": -468.127716
+				},
+				"rotation": {
+					"x": 281.6773,
+					"y": 319.171631,
+					"z": 89.60507
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -444.772217,
+					"y": 26.9273682,
+					"z": -462.872772
+				},
+				"rotation": {
+					"x": 276.949249,
+					"y": 48.22824,
+					"z": 0.6933069
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -454.351624,
+					"y": 48.9147339,
+					"z": -447.358063
+				},
+				"rotation": {
+					"x": 290.923157,
+					"y": 339.899,
+					"z": 67.66382
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -468.5559,
+					"y": 62.6058655,
+					"z": -426.924225
+				},
+				"rotation": {
+					"x": 317.945618,
+					"y": 132.041565,
+					"z": 281.488617
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -488.431824,
+					"y": 75.37976,
+					"z": -398.932526
+				},
+				"rotation": {
+					"x": 358.05,
+					"y": 140.559845,
+					"z": 278.5863
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -506.9463,
+					"y": 94.06506,
+					"z": -370.377472
+				},
+				"rotation": {
+					"x": 14.8022671,
+					"y": 143.602722,
+					"z": 278.152954
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -526.035156,
+					"y": 114.094238,
+					"z": -339.96347
+				},
+				"rotation": {
+					"x": 15.9583549,
+					"y": 148.581253,
+					"z": 277.319458
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -539.972839,
+					"y": 128.595367,
+					"z": -314.963654
+				},
+				"rotation": {
+					"x": 1.92868364,
+					"y": 149.525177,
+					"z": 277.2018
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -556.73584,
+					"y": 107.213379,
+					"z": -291.007965
+				},
+				"rotation": {
+					"x": 289.837952,
+					"y": 133.264832,
+					"z": 290.039581
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -569.300049,
+					"y": 92.13907,
+					"z": -270.310333
+				},
+				"rotation": {
+					"x": 284.282532,
+					"y": 126.306343,
+					"z": 298.3177
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": -528.864258,
+					"y": -1.09924316,
+					"z": -349.2225
+				},
+				"rotation": {
+					"x": 33.4821472,
+					"y": 146.1449,
+					"z": 269.136
+				},
+				"scale": 3.0
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 560.6205,
+					"y": -46.59857,
+					"z": -385.760529
+				},
+				"rotation": {
+					"x": 310.628,
+					"y": 40.0441246,
+					"z": 258.871979
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 558.338257,
+					"y": -61.10324,
+					"z": -383.533722
+				},
+				"rotation": {
+					"x": 9.013978,
+					"y": 28.7612438,
+					"z": 252.195114
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 530.974731,
+					"y": -58.02365,
+					"z": -415.622223
+				},
+				"rotation": {
+					"x": 21.1096344,
+					"y": 33.55009,
+					"z": 255.411316
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 534.118042,
+					"y": -77.89642,
+					"z": -402.0934
+				},
+				"rotation": {
+					"x": 64.56044,
+					"y": 301.822876,
+					"z": 168.177216
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 544.3165,
+					"y": -98.49823,
+					"z": -367.846466
+				},
+				"rotation": {
+					"x": 32.6026268,
+					"y": 236.795258,
+					"z": 126.1145
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 567.3053,
+					"y": -69.7302246,
+					"z": -360.156952
+				},
+				"rotation": {
+					"x": 68.3684158,
+					"y": 331.413727,
+					"z": 213.074173
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 574.8373,
+					"y": -41.5780029,
+					"z": -358.596222
+				},
+				"rotation": {
+					"x": 45.0218964,
+					"y": 23.0980873,
+					"z": 268.441742
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 588.1764,
+					"y": -45.08835,
+					"z": -331.1066
+				},
+				"rotation": {
+					"x": 19.3114662,
+					"y": 23.3949547,
+					"z": 261.89563
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 573.8346,
+					"y": -104.906921,
+					"z": -320.601959
+				},
+				"rotation": {
+					"x": 338.3376,
+					"y": 44.6275558,
+					"z": 238.496552
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 583.084839,
+					"y": -74.80646,
+					"z": -326.176056
+				},
+				"rotation": {
+					"x": 26.737402,
+					"y": 19.00674,
+					"z": 254.669922
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 581.1417,
+					"y": -109.276245,
+					"z": -301.2142
+				},
+				"rotation": {
+					"x": 356.899841,
+					"y": 29.40463,
+					"z": 242.432556
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 596.651245,
+					"y": -83.2744141,
+					"z": -292.9932
+				},
+				"rotation": {
+					"x": 36.6679535,
+					"y": 14.8020477,
+					"z": 251.218628
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 603.754761,
+					"y": -49.8647156,
+					"z": -296.861969
+				},
+				"rotation": {
+					"x": 44.2258224,
+					"y": 11.3729219,
+					"z": 250.302856
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 603.2196,
+					"y": -121.222656,
+					"z": -254.817474
+				},
+				"rotation": {
+					"x": 336.1999,
+					"y": 50.5260468,
+					"z": 240.756058
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 618.2379,
+					"y": -81.66803,
+					"z": -249.266083
+				},
+				"rotation": {
+					"x": 28.5631561,
+					"y": 18.519577,
+					"z": 253.334747
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 623.430542,
+					"y": -32.4332275,
+					"z": -264.527
+				},
+				"rotation": {
+					"x": 47.9782562,
+					"y": 14.0870523,
+					"z": 256.692383
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 633.0912,
+					"y": -69.09131,
+					"z": -223.489288
+				},
+				"rotation": {
+					"x": 52.6477547,
+					"y": 10.957655,
+					"z": 254.115082
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 617.419067,
+					"y": -132.009338,
+					"z": -220.233856
+				},
+				"rotation": {
+					"x": 300.208069,
+					"y": 67.0148,
+					"z": 228.583054
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 632.9586,
+					"y": -101.910706,
+					"z": -208.186676
+				},
+				"rotation": {
+					"x": 313.0272,
+					"y": 39.31802,
+					"z": 251.434937
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 643.9801,
+					"y": -65.7915039,
+					"z": -190.386749
+				},
+				"rotation": {
+					"x": 50.0361137,
+					"y": 19.4771938,
+					"z": 275.9935
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 651.771362,
+					"y": -93.14325,
+					"z": -162.341339
+				},
+				"rotation": {
+					"x": 322.791077,
+					"y": 13.7649527,
+					"z": 258.5835
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 645.6969,
+					"y": -134.86084,
+					"z": -152.072662
+				},
+				"rotation": {
+					"x": 300.75647,
+					"y": 23.0779228,
+					"z": 250.078354
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 635.5082,
+					"y": -181.562317,
+					"z": -157.423187
+				},
+				"rotation": {
+					"x": 72.30101,
+					"y": 247.3551,
+					"z": 142.5405
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 627.399048,
+					"y": -218.925537,
+					"z": -153.370941
+				},
+				"rotation": {
+					"x": 62.85028,
+					"y": 347.958252,
+					"z": 237.478729
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 581.37,
+					"y": -227.80188,
+					"z": -219.840973
+				},
+				"rotation": {
+					"x": 77.19227,
+					"y": 325.996429,
+					"z": 201.947128
+				}
+			},
+			{
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
+				"position": {
+					"x": 618.507935,
+					"y": -163.776428,
+					"z": -202.273834
+				},
+				"rotation": {
+					"x": 65.90925,
+					"y": 239.903473,
+					"z": 122.354889
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 625.431,
+					"y": -185.5332,
+					"z": -91.4524841
+				},
+				"rotation": {
+					"x": 286.867065,
+					"y": 131.438019,
+					"z": 142.9675
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 612.169067,
+					"y": -244.175415,
+					"z": -86.07895
+				},
+				"rotation": {
+					"x": 291.111816,
+					"y": 41.8162041,
+					"z": 227.904419
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 592.37854,
+					"y": -307.888245,
+					"z": -90.41617
+				},
+				"rotation": {
+					"x": 60.39002,
+					"y": 266.126465,
+					"z": 168.214981
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 577.3629,
+					"y": -314.471252,
+					"z": -132.444672
+				},
+				"rotation": {
+					"x": 16.8849545,
+					"y": 216.167526,
+					"z": 140.559845
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 549.750366,
+					"y": -317.374817,
+					"z": -179.787567
+				},
+				"rotation": {
+					"x": 32.9520073,
+					"y": 10.9243975,
+					"z": 226.613937
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 548.254,
+					"y": -288.288025,
+					"z": -197.315582
+				},
+				"rotation": {
+					"x": 346.2131,
+					"y": 222.3977,
+					"z": 101.589485
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 515.565552,
+					"y": -128.734314,
+					"z": -347.350616
+				},
+				"rotation": {
+					"x": 13.9044847,
+					"y": 225.3236,
+					"z": 118.677773
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 490.036743,
+					"y": -83.23328,
+					"z": -422.976349
+				},
+				"rotation": {
+					"x": 54.67195,
+					"y": 249.176575,
+					"z": 129.886246
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 500.485229,
+					"y": -38.01306,
+					"z": -432.572052
+				},
+				"rotation": {
+					"x": 46.5080452,
+					"y": 234.867859,
+					"z": 97.66645
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 519.2057,
+					"y": -0.9619751,
+					"z": -413.1735
+				},
+				"rotation": {
+					"x": 5.9326067,
+					"y": 219.060211,
+					"z": 81.35988
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 547.735962,
+					"y": 16.2124634,
+					"z": -359.410126
+				},
+				"rotation": {
+					"x": 0.13808094,
+					"y": 213.02388,
+					"z": 81.94129
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 575.271851,
+					"y": 30.00064,
+					"z": -312.4019
+				},
+				"rotation": {
+					"x": 355.2059,
+					"y": 214.446915,
+					"z": 79.07596
+				}
+			},
+			{
+				"path": "DreamWorld_Body/Sector_DreamWorld/Sector_Underground/IslandsRoot/IslandPivot_B/Island_B/Props_Island_B/Tree_DW_L (3)",
+				"position": {
+					"x": 603.21936,
+					"y": 40.9979858,
+					"z": -258.42923
+				},
+				"rotation": {
+					"x": 341.1739,
+					"y": 207.334778,
+					"z": 84.71016
+				}
+			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/CritterAnimatedV3.prefab",
+				"position": {
+					"x": -573.6413,
+					"y": 38.54782,
+					"z": -272.5137
+				},
+				"rotation": {
+					"x": 332.405182,
+					"y": 150.8025,
+					"z": 273.4341
+				},
+				"scale": 10.0,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/Pod.prefab",
+				"position": {
+					"x": -573.6413,
+					"y": 38.54782,
+					"z": -272.5137
+				},
+				"rotation": {
+					"x": 332.405182,
+					"y": 150.8025,
+					"z": 273.4341
+				},
+				"scale": 10.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "CritterAnimatedV3",
+				"position": {
+					"x": -571.5696,
+					"y": 35.85739,
+					"z": -276.120422
+				},
+				"rotation": {
+					"x": 312.3849,
+					"y": 150.654068,
+					"z": 272.370728
+				},
+				"scale": 10.0
+			},
+			{
+				"path": "CritterAnimatedV3",
+				"position": {
+					"x": -568.314331,
+					"y": 29.0310364,
+					"z": -282.607117
+				},
+				"rotation": {
+					"x": 272.3211,
+					"y": 111.991966,
+					"z": 308.9763
+				},
+				"scale": 10.0
+			},
+			{
+				"path": "CritterAnimatedV3",
+				"position": {
+					"x": -563.430664,
+					"y": 28.3786926,
+					"z": -291.4297
+				},
+				"rotation": {
+					"x": 309.661957,
+					"y": 332.59848,
+					"z": 87.80299
+				},
+				"scale": 10.0
+			},
+			{
+				"path": "CritterAnimatedV3",
+				"position": {
+					"x": -562.6936,
+					"y": 38.1251526,
+					"z": -292.2102
+				},
+				"rotation": {
+					"x": 11.7584143,
+					"y": 330.343231,
+					"z": 87.0993347
+				},
+				"scale": 10.0
+			},
+			{
+				"path": "CritterAnimatedV3",
+				"position": {
+					"x": 66.94044,
+					"y": -630.323547,
+					"z": 64.67661
+				},
+				"rotation": {
+					"x": 354.307434,
+					"y": 52.1543427,
+					"z": 176.486877
+				},
+				"scale": 10.0
+			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/Pod.prefab",
+				"position": {
+					"x": 66.94044,
+					"y": -630.323547,
+					"z": 64.67661
+				},
+				"rotation": {
+					"x": 354.307434,
+					"y": 52.1543427,
+					"z": 176.486877
+				},
+				"scale": 10.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "CritterAnimatedV3",
+				"position": {
+					"x": 618.5471,
+					"y": -217.974243,
+					"z": -176.214722
+				},
+				"rotation": {
+					"x": 299.6782,
+					"y": 181.34552,
+					"z": 119.114159
+				},
+				"scale": 10.0
+			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/Pod.prefab",
+				"position": {
+					"x": 618.5471,
+					"y": -217.974243,
+					"z": -176.214722
+				},
+				"rotation": {
+					"x": 299.6782,
+					"y": 181.34552,
+					"z": 119.114159
+				},
+				"scale": 10.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "CritterAnimatedV3",
+				"position": {
+					"x": -33.9082832,
+					"y": 438.343048,
+					"z": -88.44914
+				},
+				"rotation": {
+					"x": 20.3757038,
+					"y": 132.35585,
+					"z": 348.8756
+				},
+				"scale": 10.0
+			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path": "Assets/Archipelago/Prefabs/Pod.prefab",
+				"position": {
+					"x": -33.9082832,
+					"y": 438.343048,
+					"z": -88.44914
+				},
+				"rotation": {
+					"x": 20.3757038,
+					"y": 132.35585,
+					"z": 348.8756
+				},
+				"scale": 10.0,
+				"keepLoaded": true
+			},
+			{
+				"path": "Anglerfish_Body/Beast_Anglerfish",
+				"position": {"x": 0.0, "y": 59991.0, "z": -10.0},
+				"rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
+				"scale" : 0.02,
+				"keepLoaded": true,
+				"removeChildren" :[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end"
+				]
+			},
+			{
+				"path" : "Anglerfish_Body/Beast_Anglerfish_Collision", 
+				"position": {"x": 0.0, "y": 59991.0, "z": -10.0},
+				"rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
+				"scale" : 0.02,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "planets/assetbundle/cantaffordanarchipelago",
+				"path" : "Assets/Archipelago/Prefabs/CreditsPlatform.prefab", 
+				"position": {"x": 0.0, "y": 59990.0, "z": 0.0},
+				"rotation": {"x": 0.0, "y": 0.0, "z": 0.0},
+				"scale" : 5,
+				"keepLoaded": true
+			}
+		],
+		"dialogue": [
+			{
+				"lookAtRadius": 2.0,
+				"position": {
+					"x": -573.6413,
+					"y": 38.54782,
+					"z": -272.5137
+				},
+				"radius": 2.0,
+				"xmlFile": "planets/Dialogue/PodCritter.xml"
+			},
+			{
+				"lookAtRadius": 2.0,
+				"position": {
+					"x": -33.9082832,
+					"y": 438.343048,
+					"z": -88.44914
+				},
+				"radius": 2.0,
+				"xmlFile": "planets/Dialogue/CoralCritter.xml"
+			},
+			{
+				"lookAtRadius": 2.0,
+				"position": {
+					"x": 66.94044,
+					"y": -630.323547,
+					"z": 64.67661
+				},
+				"radius": 2.0,
+				"xmlFile": "planets/Dialogue/TriCritter.xml"
+			},
+			{
+				"lookAtRadius": 2.0,
+				"position": {
+					"x": 618.5471,
+					"y": -217.974243,
+					"z": -176.214722
+				},
+				"radius": 2.0,
+				"xmlFile": "planets/Dialogue/CrescentCritter.xml"
+			},
+			{
+				"lookAtRadius": 2.0,
+				"position": {
+					"x": -571.5696,
+					"y": 35.85739,
+					"z": -276.120422
+				},
+				"radius": 2.0,
+				"xmlFile": "planets/Dialogue/DefaultCritter.xml"
+			},
+			{
+				"lookAtRadius": 2.0,
+				"position": {
+					"x": -568.314331,
+					"y": 29.03103,
+					"z": -282.607117
+				},
+				"radius": 2.0,
+				"xmlFile": "planets/Dialogue/DefaultCritter.xml"
+			},
+			{
+				"lookAtRadius": 2.0,
+				"position": {
+					"x": -563.430664,
+					"y": 28.3786831,
+					"z": -291.4297
+				},
+				"radius": 2.0,
+				"xmlFile": "planets/Dialogue/DefaultCritter.xml"
+			},
+			{
+				"lookAtRadius": 2.0,
+				"position": {
+					"x": -562.6936,
+					"y": 38.12516,
+					"z": -292.2102
+				},
+				"radius": 2.0,
+				"xmlFile": "planets/Dialogue/DefaultCritter.xml"
+			},
+			{
+				"lookAtRadius": 3.0,
 				"position": {
 					"x": 0.0,
-					"y": 0.0,
-					"z": 0.0
+					"y": 59991,
+					"z": -10.0
 				},
-				"rotation": {},
-				"scale": 1.0,
-				"keepLoaded": true
+				"radius": 3.0,
+				"xmlFile": "planets/Dialogue/CreditAngler.xml"
 			}
 		],
 		"geysers": [
 			{
-				"position": {"x": 0.0, "y": -660.0, "z": 0.0},
-				"activeDuration": 1440.0,
+				"position": {
+					"x": 537.896545,
+					"y": -49.3448067,
+					"z": -377.604248
+				},
+				"force": 0.0,
+				"activeDuration": 7.0,
 				"inactiveDuration": 1.0,
-				"force": 55,
-				"volume": 0.7
+				"volume": 0.3
+			},
+			{
+				"position": {
+					"x": 537.896545,
+					"y": -49.3448067,
+					"z": -377.604248
+				},
+				"force": 0.0,
+				"activeDuration": 8.0,
+				"inactiveDuration": 1.0,
+				"volume": 0.3
+			},
+			{
+				"position": {
+					"x": 537.896545,
+					"y": -49.3448067,
+					"z": -377.604248
+				},
+				"force": 0.0,
+				"activeDuration": 9.0,
+				"inactiveDuration": 1.0,
+				"volume": 0.3
+			},
+			{
+				"position": {
+					"x": 537.896545,
+					"y": -49.3448067,
+					"z": -377.604248
+				},
+				"activeDuration": 9999999.0,
+				"inactiveDuration": 1.0,
+				"disableBubbles": true,
+				"disableShaft": true,
+				"disableSpout": true,
+				"volume": 0.0
+			}
+		],
+		"singularities": [
+			{
+				"pairedSingularity": "CreditsWhite",
+				"uniqueID": "CreditsBlack",
+				"position": {},
+				"size": 50.0,
+				"horizonRadius": 20.0,
+				"distortRadius": 47.5,
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2990,
+				"type": "blackHole",
+			},
+			{
+				"pairedSingularity": "CreditsBlack",
+				"uniqueID": "CreditsWhite",
+				"position": {
+					"y": 60000
+				},
+				"size": 0.0,
+				"horizonRadius": 0.0,
+				"distortRadius": 0.0,
+				"hasWarpEffects": false,
+				"renderQueueOverride": 2990,
+				"type": "whiteHole",
+			},
+			{
+				"pairedSingularity": "ArchipelagoWhite",
+				"uniqueID": "ArchipelagoBlack",
+				"position": {
+					"y": 59992.0,
+					"z": -20.0
+				},
+				"size": 5.0,
+				"horizonRadius": 2.0,
+				"distortRadius": 2.0,
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2990,
+				"type": "blackHole",
+			},
+		],
+		"signals": [
+			{
+				"audio": "2412",
+				"detectionRadius": 25.0,
+				"frequency": "Geothermal Activity",
+				"identificationRadius": 3.0,
+				"name": "Geyser Heat Source",
+				"position": {
+					"x": 534.5156,
+					"y": -47.00468,
+					"z": -327.0869
+				},
+				"sourceRadius": 4.0
+			},
+			{
+				"audio": "2412",
+				"detectionRadius": 5.0,
+				"frequency": "Geothermal Activity",
+				"identificationRadius": 3.0,
+				"name": "Crater Heat Source",
+				"position": {
+					"x": 0.4208484,
+					"y": -0.05894744,
+					"z": 359.0655
+				},
+				"sourceRadius": 4.0
 			}
 		]
 	},
 	"ReferenceFrame": {
-		"maxTargetDistance": -1.0
+		"enabled": false
 	},
 	"ShipLog": {
 		"mapMode": {}
@@ -164,48 +1859,46 @@
 	"ShockEffect": {},
 	"Spawn": {
 		"playerSpawnPoint": {
-			"x": 6.641362,
-			"y": -624.8914,
-			"z": 17.39575
+			"x": -558.7534,
+			"y": 45.84983,
+			"z": -298.5107
 		},
 		"playerSpawnRotation": {
-			"x": 1.252215,
-			"y": 209.5707,
-			"z": 180.2482
+			"x": 351.0767,
+			"y": 150.4886,
+			"z": 272.8746
 		},
 		"shipSpawnPoint": {
-			"x": 102.4125,
-			"y": -624.9838,
-			"z": 51.98032
+			"x": -561.7131,
+			"y": 15.02597,
+			"z": -294.8942
 		},
 		"shipSpawnRotation": {
-			"x": 5.923297,
-			"y": 198.9472,
-			"z": 174.7011
-		},
-		"startWithSuit": true
+			"x": 266.7562,
+			"y": 149.8946,
+			"z": 261.0331
+		}
 	},
 	"Water": {
 		"size": 620.0,
+		"density": 15.0,
 		"tint": {
 			"r": 60,
 			"g": 143,
 			"b": 166,
 			"a": 0
-		},
-		"buoyancy": 1.0,
-		"density": 15.0
+		}
 	},
 	"Volumes": {
 		"audioVolumes": [
 			{
-				"audio": "2880",
+				"audio": "1810",
 				"clipSelection": "random",
-				"track": "environment",
+				"track": "environmentUnfiltered",
 				"volume": 0.4,
+				"priority": 0,
 				"position": {},
-				"radius": 619.0,
-				"priority": 1
+				"radius": 2000.0
 			},
 			{
 				"audio": "2881",
@@ -213,16 +1906,80 @@
 				"track": "environment",
 				"volume": 0.4,
 				"position": {},
-				"radius": 635.0,
-				"priority": 0
+				"radius": 635.0
+			},
+			{
+				"audio": "1810",
+				"clipSelection": "random",
+				"track": "environmentUnfiltered",
+				"volume": 0.4,
+				"position": {},
+				"radius": 635.0
+			},
+			{
+				"audio": "2880",
+				"clipSelection": "random",
+				"track": "environment",
+				"volume": 0.4,
+				"priority": 2,
+				"position": {},
+				"radius": 619.0
 			},
 			{
 				"audio": "2507",
 				"clipSelection": "random",
 				"track": "music",
 				"volume": 0.5,
+				"pauseOnFadeOut": true,
+				"priority": 2,
 				"position": {},
 				"radius": 619.0
+			},
+			{
+				"audio": "2507",
+				"clipSelection": "random",
+				"track": "music",
+				"volume": 0.0,
+				"priority": 3,
+				"position": {},
+				"radius": 400.0
+			},
+			{
+				"audio": "2880",
+				"clipSelection": "random",
+				"track": "environment",
+				"volume": 0.4,
+				"priority": 3,
+				"position": {},
+				"radius": 400.0
+			},
+			{
+				"audio": "2880",
+				"clipSelection": "random",
+				"track": "environment",
+				"volume": 0.4,
+				"priority": 4,
+				"position": {},
+				"radius": 100.0,
+				"parentPath": "Sector/CrawlerRigged/Root/Head",
+				"isRelativeToParent": true
+			},
+			{
+				"audio": "2101",
+				"clipSelection": "random",
+				"track": "environmentUnfiltered",
+				"volume": 0.8,
+				"priority": 4,
+				"position": {},
+				"radius": 100.0,
+				"parentPath": "Sector/CrawlerRigged/Root/Head",
+				"isRelativeToParent": true
+			}
+		],
+		"referenceFrameBlockerVolumes": [
+			{
+				"position": {},
+				"radius": 2000.0
 			}
 		]
 	}

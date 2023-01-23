@@ -1,0 +1,17 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Planet That Fixes Glitches",
+	"starSystem": "CantAffordaName.ArchipelagoSystem",
+	"Base": {
+		"gravityFallOff": "linear",
+		"invulnerableToSun": true
+	},
+	"destroy": true,
+	"Orbit": {
+		"primaryBody": "Archipelago",
+		"semiMajorAxis": 3000.0
+	},
+	"ReferenceFrame": {},
+	"ShipLog": {},
+	"ShockEffect": {}
+}

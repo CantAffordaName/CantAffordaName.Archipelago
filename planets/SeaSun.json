@@ -9,7 +9,7 @@
 			"r": 245,
 			"g": 209,
 			"b": 66,
-			"a": 255
+			"a": 0
 		},
 		"size": 20.0
 	},
@@ -17,14 +17,30 @@
 		"gravityFallOff": "inverseSquared",
 		"hasMapMarker": true,
 		"invulnerableToSun": true,
-		"surfaceSize": 20.0,
-		"surfaceGravity": 20.0
+		"surfaceGravity": 20.0,
+		"surfaceSize": 20.0
 	},
 	"Orbit": {
-		"isStatic": false,
-		"primarybody": "Archipelago",
-		"semiMajorAxis": 1000.0,
-		"siderealPeriod": 10.0
+		"primaryBody": "Archipelago",
+		"isTidallyLocked": true,
+		"semiMajorAxis": 1000.0
+	},
+	"Props": {
+		"singularities": [
+			{
+				"pairedSingularity": "ArchipelagoBlack",
+				"uniqueID": "ArchipelagoWhite",
+				"position": {
+					"y": -2000.0
+				},
+				"size": 50.0,
+				"horizonRadius": 20.0,
+				"distortRadius": 140.0,
+				"type": "whiteHole",
+				"hasWarpEffects": true,
+				"renderQueueOverride": 2985
+			}
+		]
 	},
 	"ReferenceFrame": {
 		"enabled": false
@@ -37,11 +53,10 @@
 			"r": 245,
 			"g": 209,
 			"b": 66,
-			"a": 255
+			"a": 0
 		},
+		"lightRadius": 1600.0,
 		"stellarDeathType": "none",
-		"stellarRemnantType": "default",
-		"solarLuminosity": 1.0,
-		"lightRadius": 1600.0
+		"stellarRemnantType": "default"
 	}
 }

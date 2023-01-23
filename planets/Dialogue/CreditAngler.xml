@@ -1,0 +1,91 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>Angler fische, Destroyer of Worlds</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Good job. You won, or something.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What?</Text>
+				<DialogueTarget>WHAT</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>So what happens now?</Text>
+				<DialogueTarget>STORY</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Cool. I'm qonna quit the game now.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>WHAT</Name>
+		<Dialogue>
+			<Page>You reached the end. That's it. You solved the puzzles, or accomplished whatever it is you set out to do.</Page>
+			<Page>So that's it. You're done here.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Can I go back?</Text>
+				<DialogueTarget>BACK</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'll take your word for it. I've seen all there is to see.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>STORY</Name>
+		<Dialogue>
+			<Page>Oh yeah, those things wanted you to find the black hole so they could explore space before everything goes kablooie.</Page>
+			<Page>One of 'em said they could read your memories, or something. So they try to follow in your footsteps every loop to explore what they can before the loop occurs.</Page>
+			<Page>I guess that means they end up exploring the universe kinda like you. Or something. But I digress...</Page>
+			<Page>You reached the end. That's it. You solved the puzzles, or accomplished whatever it is you set out to do.</Page>
+			<Page>So that's it. You're done here.</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Can I go back?</Text>
+				<DialogueTarget>BACK</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'll take your word for it. I've seen all there is to see.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>BACK</Name>
+		<Dialogue>
+			<Page>Sure, if you're not done looking around. I'm not the boss of you (Actually I am I forbid you from going back).</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>...</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Anyways, some guy told me to tell you something, but I forgot what it was.</Page>
+			<Page>It was something like "Thanks for playing!" or something like that. Or maybe it was something about this being made in only a week for a modding jam?</Page>
+			<Page>I can't remember, they didn't pay me back those fifty Hearthian coins they owe me.</Page>
+			<Page>But anyways, you can go back to the "surface" with that black hole over there. But that's all.</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>
